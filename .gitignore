@@ -1,4 +1,4 @@
-node_modules/
+*node_modules/
 .expo/
 dist/
 npm-debug.*
@@ -13,6 +13,7 @@ web-build/
 .expo
 yarn.lock
 environment.ts
+express-backend/package-lock.json
 
 # macOS
 .DS_Store

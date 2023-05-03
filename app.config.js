@@ -6,7 +6,6 @@ import {ExpoConfig} from 'expo/config';
 const config: ExpoConfig = {
     name: 'RN-Stripe-Test',
     slug: 'RN-Stripe-Test',
-    extra: {API: "https://europe-west3-stavx-dev.cloudfunctions.net/fetchStripe"}
 };
 
 export default config;

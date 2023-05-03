@@ -10,7 +10,7 @@
       [
         "@stripe/stripe-react-native",
         {
-          "merchantIdentifier": "",
+          "merchantIdentifier": "merchantId",
           "enableGooglePay": true
         }
       ]
