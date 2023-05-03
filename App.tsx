@@ -4,6 +4,9 @@ import {StripeProvider} from "@stripe/stripe-react-native";
 import {merchantIdentifier, publishableKey, stripeAccountId} from "./environment";
 
 export default function App() {
+
+
+
     return (
         <StripeProvider publishableKey={publishableKey} merchantIdentifier={merchantIdentifier}
                         stripeAccountId={stripeAccountId}>
